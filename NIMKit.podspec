@@ -25,7 +25,7 @@ Pod::Spec.new do |s|
   
   s.subspec 'Core' do |os|     
     os.resources = 'NIMKit/Resources/*.*'   
-    os.dependency 'SDWebImage', '~> 5.10.2'
+    os.dependency 'SDWebImage'
     os.dependency 'FLAnimatedImage', '~> 1.0.12'
     os.dependency 'Toast', '~> 3.0'         
     os.dependency 'TZImagePickerController', '~> 3.5.2'  
